@@ -14,8 +14,8 @@ This Python script automates the process of importing a seed phrase or private k
 
 ## Setup
 ### 1. Clone the Repository: <br /> 
-   > git clone https://github.com/yourusername/repository.git <br /> 
-   > cd repository <br /> 
+   > git clone https://github.com/JanBremec/Automated-Crypto-Wallet-Manager-Seed-Phrase-Import-and-Balance-Retrieval.git <br /> 
+   > cd Automated-Crypto-Wallet-Manager-Seed-Phrase-Import-and-Balance-Retrieval <br /> 
 
 ### 2. Install Required Packages: <br /> 
    > pip install selenium web3 python-dotenv

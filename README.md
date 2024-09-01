@@ -13,27 +13,28 @@ This Python script automates the process of importing a seed phrase or private k
 - Chrome browser with the Rabby Wallet extension
 
 ## Setup
-### 1. Clone the Repository: <br /> 
-   > git clone https://github.com/JanBremec/Automated-Crypto-Wallet-Manager-Seed-Phrase-Import-and-Balance-Retrieval.git <br /> 
-   > cd Automated-Crypto-Wallet-Manager-Seed-Phrase-Import-and-Balance-Retrieval <br /> 
+### 1. Clone the Repository:
+    git clone https://github.com/JanBremec/Automated-Crypto-Wallet-Manager-Seed-Phrase-Import-and-Balance-Retrieval.git <br /> 
+    cd Automated-Crypto-Wallet-Manager-Seed-Phrase-Import-and-Balance-Retrieval <br /> 
 
-### 2. Install Required Packages: <br /> 
-   > pip install selenium web3 python-dotenv
+### 2. Install Required Packages:
+    pip install selenium web3 python-dotenv
 
-### 3. Create a .env File: <br /> 
-  - In the root directory of the project, create a .env file with the following content:
-   
-  > SEED_PASSPHRASE="your_seed_phrase" <br /> 
-  > WALLET_PASSWORD="your_wallet_password" <br /> 
-  > EXTENSION_PATH="path_to_your_extension.crx" <br /> 
-  > PROFILE_PATH="path_to_your_chrome_profile" <br /> 
-  > EXTENSION_ID="your_extension_id" <br /> 
-  > INFURA_API_KEY="your_infura_api_key" <br />
+### 3. Create a .env File:
+In the root directory of the project, create a .env file with the following content:
+      
+    SEED_PASSPHRASE="your_seed_phrase"
+    WALLET_PASSWORD="your_wallet_password"
+    EXTENSION_PATH="path_to_your_extension.crx"
+    PROFILE_PATH="path_to_your_chrome_profile"
+    EXTENSION_ID="your_extension_id"
+    INFURA_API_KEY="your_infura_api_key"
     
 ## Usage
-  ### Run the script: <br />
-  > python main.py <br />
-  - The script will automate the wallet import process, retrieve wallet addresses, and display their balances. <br />
+  ### Run the script:
+    python main.py
+   
+   The script will automate the wallet import process, retrieve wallet addresses, and display their balances. <br />
 
 ## Error Handling
-  - Errors during execution will be printed to the terminal. Ensure all environment variables are correctly set and the wallet extension is properly     configured.
+   Errors during execution will be printed to the terminal. Ensure all environment variables are correctly set and the wallet extension is properly     configured.
